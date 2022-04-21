@@ -6,3 +6,7 @@ export NVM_DIR="$HOME/.nvm"
 
 #ruby rbenv
 eval "$(rbenv init - zsh)"
+
+#php
+export PATH="/usr/local/opt/php@8.0/bin:$PATH"
+export PATH="/usr/local/opt/php@8.0/sbin:$PATH"
